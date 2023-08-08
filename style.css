@@ -1,12 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Handjet:wght@200;300;400;500&display=swap');
 
-ul {
-    background-color: black;
-    padding: 12px;
-/*     padding-top: 12px;
-    padding-bottom: 12px;
-    padding-left: 12px; */
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+    font-family: 'Handjet', cursive;
 }
+
+nav {
+    background-color: black;
+    padding: 12px 12px 12px 12px;
+    border-radius: 15px;
+}
+
+ul {
+    padding-top: 1px;
+    padding-right: 15rem;
+    padding-bottom: 1px;
+    padding-left: 23rem;
+}
+
 
 li {
     list-style: none;
@@ -20,9 +33,60 @@ a {
     list-style: none;
     text-decoration: none;
     color: white;
-    font-family: 'Handjet', cursive;
 }
 
-img{
-    margin-left: 500px;
+.container {
+    color: black;
+    margin-left: 45px;
+}
+
+.box1 {
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+}
+
+.box2 {
+    margin-top: 3rem;
+    margin-right: 5rem;
+}
+
+.btn1 button {
+    border-style: none;
+    border-radius: 5px;
+    font-size: 20px;
+    background-color: black;
+    color: white;
+    padding: 9px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 11px;
+}
+
+.btn1 button:hover {
+    background-color: white;
+    color: black;
+}
+
+.colap {
+    margin-left: 40rem;
+    margin-right: 30rem;
+}
+
+.btn2 button {
+    border-style: none;
+    border-radius: 5px;
+    background-color: white;
+    padding: 9px;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.btn2 button:hover {
+    background-color: black;
+    color: white;
+}
+
+#message {
+    margin-top: 1rem;
+    margin-left: 1rem;
 }
